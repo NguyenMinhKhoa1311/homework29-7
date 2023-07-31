@@ -1,0 +1,28 @@
+
+<div class="containerIn4">
+    <div id="ImgUser" class="box">
+        <img [src]="userIn4?.imgUrl??''" alt="">
+    </div>
+    <div id="in4User" class="box">
+        <p>{{userIn4?.name??''}}</p>
+        <p>{{userIn4?.email??''}}</p>
+    </div>
+    <div class="box"><form class="form" [formGroup]="emailFromGroup">
+        <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              formControlName="email"
+              placeholder="Nhập email để kết bạn "
+            />
+          </div>
+    </form></div>
+    <div id="containerBtn" class="box">
+        <!-- HTML !-->
+        <button class="button-62" role="button" (click)="addFriend(emailFromGroup.value.email)">Kết bạn <mat-icon style="margin: 5px;">person_add</mat-icon></button>
+        <button class="button-62" role="button" (click)="userIn4Service.logout()">Đăng xuất <mat-icon style="margin: 5px;">logout</mat-icon></button>
+    </div>
+  </div>
+
+  

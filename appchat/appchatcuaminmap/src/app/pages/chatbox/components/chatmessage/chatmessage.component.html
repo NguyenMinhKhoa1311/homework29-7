@@ -1,0 +1,15 @@
+
+<div *ngIf="friendship" style="width: 100%; height: 100%;">
+    <div class="namefriend">{{friendship.friendEmail}}</div>
+    <span *ngFor="let message of messageService.messages| async">
+        <div *ngIf="message.senderEmail == friendship.friendEmail" class="left" style="text-align: left; width: 100%;">
+            <div class="content">{{message.content}}</div>
+        </div>
+        <div *ngIf="message.senderEmail == myEmail" class="right" style="text-align: right; width: 100%;">
+            <div class="content">{{message.content}}</div>
+        </div>
+    </span>
+</div>
+<div *ngIf="!friendship">
+    <h2>Thêm bạn mới hoặc chọn bạn từ danh sách</h2>
+</div>

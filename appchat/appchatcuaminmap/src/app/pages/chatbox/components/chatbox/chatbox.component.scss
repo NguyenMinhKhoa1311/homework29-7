@@ -1,0 +1,22 @@
+.webchat{
+        display: grid;
+        grid-template-columns: minmax(150px, 25%) 1fr;
+        height: 100%;
+        width: 99.5%;
+
+}
+.in4andfrindlist {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+  }
+
+  #chatbox{
+        display: grid;
+        grid-template-rows:  1fr auto;
+        border-left: 1px solid black ;
+}
+.inputmessage{
+        height: 5rem;
+}
+

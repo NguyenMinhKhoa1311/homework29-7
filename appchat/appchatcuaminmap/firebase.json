@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "appchatcuaminmap",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

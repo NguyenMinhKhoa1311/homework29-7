@@ -1,0 +1,18 @@
+<div class="webchat">
+    <div class="in4andfriendlist" >
+        <div class="in4" style=" height: 20%;">
+        <app-user-in4 [userIn4]="(userIn4Service.userInfo | async)"></app-user-in4>
+        </div>
+        <div class="friendlist" style=" height: 75%;">
+            <app-friendlist (selectedFriend)="selectedFriend($event)"></app-friendlist>
+        </div>
+    </div>
+    <div id="chatbox" >
+        <div class="message" >
+        <app-chatmessage [_friendship]="friendship"></app-chatmessage>
+        </div>
+        <div class="inputmessage">
+        <app-input-message [friendship]="friendship"></app-input-message>
+        </div>
+    </div>
+</div>

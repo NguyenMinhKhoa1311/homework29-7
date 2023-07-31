@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "appchat-de365": {
+      "hosting": {
+        "appchatcuaminmap": [
+          "appchat-de365"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "appchat-de365"
+  }
+}

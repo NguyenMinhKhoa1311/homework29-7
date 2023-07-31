@@ -1,0 +1,25 @@
+.namefriend{
+    height: 5%;
+    background-color: rgb(179, 179, 179);
+    width: 100.59%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.left{
+    padding-left: 10px;
+}
+.left , .right{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.content{
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    max-width: 500px;
+    word-wrap: break-word;
+    background-color: gray;
+    color: antiquewhite;
+    border-radius: 5px;
+}

@@ -1,0 +1,91 @@
+.containerIn4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+ .box {
+  margin: 0 10px;
+    img{
+
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+      }
+      p{
+        font-weight: bold;
+      }
+      input{
+        width: 100%;
+      }
+  }
+#ImgUser{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #374151, #0d1117);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  height: 30px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 5px;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(77, 64, 66, 0.5), .125rem .125rem 1rem rgba(75, 69, 66, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(175, 174, 174, 0.5), .125rem .125rem 1rem rgba(53, 49, 47, 0.5);
+}
+#containerBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email{
+  width: 50%;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfbfb;
+  border: 2px solid transparent;
+  height: 25px;
+  width: 190px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  :focus{
+      border: 2px solid #000;
+      border-radius: 4px;
+  }
+
+}
